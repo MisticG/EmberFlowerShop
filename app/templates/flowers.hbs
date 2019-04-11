@@ -7,14 +7,7 @@
   {{/link-to}}
 </div>
 
-
-{{#each this.model as |flower|}}
-  <article class="listing">
-    <div class="details">
-      <h3>{{flower.title}}</h3>
-      <div class="detail description">
-        <span>Description:</span> {{flower.description}}
-      </div>
-    </div>
-  </article>
+{{!--använder model arrayen från flowers.js och skriver ut som en foreach--}}
+{{#each this.model as |flowerUnit|}}
+  <FlowerListing @flower={{flowerUnit}} />
 {{/each}}

@@ -16,7 +16,7 @@ export default Route.extend({
         }, {
             id: 'Lilieae',
             title: 'Liljor',
-            image: 'https://cdn.pixabay.com/photo/2017/05/17/15/22/lilac-2321170_960_720.jpg',
+            image: 'https://cdn.pixabay.com/photo/2013/06/19/19/54/lilac-140200_960_720.jpg',
             description: 'Vilken lilja är du?'
 
         }];
