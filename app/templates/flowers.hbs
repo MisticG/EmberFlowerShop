@@ -6,3 +6,15 @@
     Om oss
   {{/link-to}}
 </div>
+
+
+{{#each this.model as |flower|}}
+  <article class="listing">
+    <div class="details">
+      <h3>{{flower.title}}</h3>
+      <div class="detail description">
+        <span>Description:</span> {{flower.description}}
+      </div>
+    </div>
+  </article>
+{{/each}}
